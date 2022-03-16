@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("https://static.vecteezy.com/ti/veor-gratis/p2/2082545-casino-fundo-abstrato-moderno-com-cartas-sinais-poquer-simbolos-no-fundo-preto-cassino-simbolos-widescreen-wallpaper-vetor.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  text-align: center;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+h1,
+h3 {
+  font-size: 5em;
+  color: rgba(112, 43, 109, 0.486);
+  font-family: Impact, sans-serif;
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(197, 35, 143);
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.selecao,
+.btnSort,
+.sorteio,
+.acertos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btnSort > button {
+  font-size: 2em;
+  padding: 10px 25px;
+  background-color: rgb(180, 87, 0);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.selecao > input {
+  width: 1.5em;
+  font-size: 4em;
+  margin-right: 15px;
+  background-color: rgb(168, 136, 31);
+  border: 1px solid black;
+  border-radius: 15px;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  bottom: 0;
+}
+
+footer > p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+p > a {
+  color: rgb(163, 13, 13);
+  text-decoration: none;
+}
+div > p {
+  font-family: sans-serif;
+  text-indent: 10px;
+  font-size: 2em;
+  color: white;
+}
+div > h4 {
+  font-size: 2em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}

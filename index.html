@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=_, initial-scale=1.0">
+    <title>Loteca - Simulador de loteria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loteria</h1>
+        <h3>Simulador de Loteria</h3>
+    </header>
+
+    <div class="selecao">
+    <input type="number" id="num1" class="num" onchange="getValor(value,0)">
+    <input type="number" id="num2" class="num" onchange="getValor(value,1)">
+    <input type="number" id="num3" class="num" onchange="getValor(value,2)">
+    <input type="number" id="num4" class="num" onchange="getValor(value,3)">
+    <input type="number" id="num5" class="num" onchange="getValor(value,4)">
+    <input type="number" id="num6" class="num" onchange="getValor(value,5)">
+    </div>
+
+    <div class="btnSort">
+        <button onclick="sorteio()">Sortear</button>
+    </div>
+    
+
+    <div class="sorteio">
+        <h4>Numeros Sorteados: </h4>
+        <p id="sorteados"></p>
+    </div>
+
+    <div class="acertos">
+        <h4>Acertos:</h4>
+        <p id="acertos"></p>
+    </div>
+    
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/taiscolman06">@taiscolman06</a> </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
